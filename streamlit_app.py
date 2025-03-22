@@ -54,7 +54,7 @@ def main():
     st.title("24-bit Hex to 8-bit Split, Binary, Reversed, NOT, and 32-bit HEX Converter")
 
     # Input: 24-bit Hex
-    hex_input = st.text_input("Enter 24-bit Hex:", value="A1B2C3", max_length=6)
+    hex_input = st.text_input("Enter 24-bit Hex:", value="A1B2C3")
 
     if st.button("Convert"):
         hex1, hex2, hex3 = split_hex_to_8bit(hex_input)
